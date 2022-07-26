@@ -1,0 +1,3 @@
+Relação entre participantes de uma rede social;
+
+Conexões entre roteadores (como os que formam a internet);
