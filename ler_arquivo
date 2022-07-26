@@ -1,0 +1,6 @@
+import csv
+
+with open("notasalunos.csv", "r") as csv
+    arquivo_csv = csv.reader(arquivo, dellimiter=',')
+    for linha in arquivo_csv:
+        print(linha)
