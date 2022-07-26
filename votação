@@ -1,0 +1,12 @@
+v = int(input('Digite o código do seu eleitor ou 0 para branco: '))
+
+if v == 889:
+    print('Candidato_X votação concluida')
+elif v == 847:
+    print('Candidato_Y votação concluida')
+elif v == 515:
+    print('Candidato_Z votação concluida')
+elif v == 0:
+    print('Branco votação conluída')
+else:
+    print('Nulo votação concluida')
