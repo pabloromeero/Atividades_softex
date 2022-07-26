@@ -1,0 +1,9 @@
+nome = input('Digite o nome completo: ')
+ano = int(input('Digite o ano de nascimento(1922 a 2021): '))
+idade = 2022-ano
+
+if  ano >= 1922 and ano <= 2021:
+    print('{} você {} anos de idade'.format(idade))
+
+else:
+    print('Ano inválido')
