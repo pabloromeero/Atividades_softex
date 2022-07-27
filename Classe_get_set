@@ -1,0 +1,26 @@
+public class caneta {
+    public String modelo;
+    private float ponta;
+    
+    public String getmodelo() {
+        return this.modelo;
+    }
+    public void setModelo(String m) {
+        this.modelo = m;
+    }
+    
+    public float getponta() {
+        return this.ponta;
+    }
+    public void setponta(float p) {
+        this.ponta = p;
+    }
+    
+    public void status() {
+        System.out.pintln("SOBRE A CANETA");
+    }
+    
+ }
+   
+   
+   
