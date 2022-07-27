@@ -1,0 +1,38 @@
+algoritmo "POO"
+var
+   ob1, ob2: caractere
+   cor: caractere
+   tamanho: real
+   conectado: logico
+   
+
+inicio
+      Escreval("-Objetos materiais:")
+      Escreval("Celular Samsung GALAXY S8")
+      Escreval("Cor: Preto")
+      Escreval("Tamanho: tela (pol.)5.8, largura(mm)68.1, altura(mm)148.9")
+      Escreval("Tela: Gorilla Dragonx8")
+      Escreval("Métodos: Acesso à internet, Ligações, Gerais...")
+      Escreval(" ")
+      Escreval("Notebook Dell")
+      Escreval("Cor: Cinza")
+      Escreval("Tamanho: tela (pol.)15.6, largura(mm)390, altura(mm)23,30")
+      Escreval("Tela: Ledslim")
+      Escreval("Métodos: Acesso à internet, Transferência de dados, Gerais..")
+      Escreval(" ")
+      Escreval("-Objetos Abstratos:")
+      Escreval("Transferência Pix")
+      EscrevaL("Rápido,gratuito e 24hrs")
+      Escreval("Basta só ter uma conta em algum banco")
+      EscrevaL(" ")
+      Escreval("Estilo de música Funk")
+      Escreval("Criado nas periferias do Rio de Janeiro, sucesso nacional")
+      Escreval("A Batida pode ser usada para o freestyle")
+      
+      
+      
+      
+      
+      
+
+fimalgoritmo
