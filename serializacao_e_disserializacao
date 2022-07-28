@@ -1,0 +1,12 @@
+//serializando
+FileOutputStream fos = new FileOutputStrem("arquivo.bin")
+ObjectOutputStream oos = new ObjectOutputStream(fos);
+oos.writeObject(objetoSerializavel);
+oos.close();
+
+//desserializando
+FileInputStream fis = new FileInputStream("arquivo.bin");
+ObjectInputStream ois = new ObjectInputStream(fis);
+TipoObjetoSerializavel objetoLido =
+        (TipoObjetoSerializavel)ois.readObject();
+ois.close();
